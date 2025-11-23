@@ -9,20 +9,20 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Source  files
 set(SOURCES
-    src/LinearRegression.cpp
+    #src/LinearRegression.cpp
     src/main.cpp
 )
 
 # Header files (optional but useful)
 set(HEADERS
-    src/LinearRegression.h
+    #include/LinearRegression.h
 )
 
 # Create executable
 add_executable(LinearRegression ${SOURCES} ${HEADERS})
 
 # Include directories
-target_include_directories(LinearRegression PRIVATE ${PROJECT_SOURCE_DIR}/src)
+target_include_directories(LinearRegression PRIVATE ${PROJECT_SOURCE_DIR}/include)
 
 # Data directory (optional copy step)
 add_custom_target(copy_data ALL

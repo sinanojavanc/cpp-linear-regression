@@ -1,0 +1,10 @@
+^E:\CODEGITHUB\LINEARREGRESSION\CPP-LINEAR-REGRESSION\BUILD\CMAKEFILES\58327572600D0E93AC6EE89F266CA5C9\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/CodeGitHub/LinearRegression/cpp-linear-regression -BE:/CodeGitHub/LinearRegression/cpp-linear-regression/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/LinearRegression.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
