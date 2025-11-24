@@ -35,6 +35,8 @@ events:
     found: "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -84,7 +86,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-      Build started 11/23/2025 6:47:22 PM.
+      Build started 11/24/2025 10:28:12 AM.
       
       Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -113,7 +115,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.60
+      Time Elapsed 00:00:00.62
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -146,6 +148,8 @@ events:
       - "link"
     candidate_directories:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -179,6 +183,8 @@ events:
     found: "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -235,6 +241,8 @@ events:
       - "lld-link"
     candidate_directories:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -267,6 +275,12 @@ events:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.com"
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link.exe"
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lld-link"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.com"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link.exe"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/lld-link"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.com"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link.exe"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/lld-link"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/lld-link"
@@ -354,6 +368,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -408,6 +424,8 @@ events:
       - "link"
     candidate_directories:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -441,6 +459,8 @@ events:
     found: "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/link.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -495,6 +515,8 @@ events:
       - "mt"
     candidate_directories:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -527,6 +549,12 @@ events:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.com"
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt.exe"
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/mt"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.com"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt.exe"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/mt"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.com"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt.exe"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/mt"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/mt"
@@ -614,6 +642,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -668,6 +698,8 @@ events:
       - "lib"
     candidate_directories:
       - "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -701,6 +733,8 @@ events:
     found: "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/Hostx64/x64/lib.exe"
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -757,6 +791,8 @@ events:
     names:
       - "rc"
     candidate_directories:
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/javapath/"
       - "C:/ProgramData/Oracle/Java/javapath/"
@@ -798,6 +834,12 @@ events:
       - "C:/Program Files (x86)/LinearRegression/sbin/"
       - "C:/Program Files (x86)/LinearRegression/"
     searched_directories:
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.com"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc.exe"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/debugCommand/rc"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.com"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc.exe"
+      - "C:/Users/Aref/AppData/Roaming/Code/User/globalStorage/github.copilot-chat/copilotCli/rc"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.com"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc.exe"
       - "C:/Program Files (x86)/Common Files/Oracle/Java/java8path/rc"
@@ -921,6 +963,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\debugCommand"
+        - "c:\\Users\\Aref\\AppData\\Roaming\\Code\\User\\globalStorage\\github.copilot-chat\\copilotCli"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\java8path"
         - "C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath"
         - "C:\\ProgramData\\Oracle\\Java\\javapath"
@@ -969,8 +1013,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-rxk9fj"
-      binary: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-rxk9fj"
+      source: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu"
+      binary: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
@@ -980,40 +1024,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-rxk9fj'
+        Change Dir: 'E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu'
         
-        Run Build Command(s): D:/Visual_Studio_17.14/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_a4d59.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Visual_Studio_17.14/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb5a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 11/23/2025 6:47:23 PM.
+        Build started 11/24/2025 10:28:13 AM.
         
-        Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rxk9fj\\cmTC_a4d59.vcxproj" on node 1 (default targets).
+        Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\cmTC_bb5a4.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_a4d59.dir\\Debug\\".
+          Creating directory "cmTC_bb5a4.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rxk9fj\\Debug\\".
-          Creating directory "cmTC_a4d59.dir\\Debug\\cmTC_a4d59.tlog\\".
+          Creating directory "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\Debug\\".
+          Creating directory "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a4d59.dir\\Debug\\cmTC_a4d59.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a4d59.dir\\Debug\\cmTC_a4d59.tlog\\unsuccessfulbuild".
+          Creating "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a4d59.dir\\Debug\\\\" /Fd"cmTC_a4d59.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_bb5a4.dir\\Debug\\\\" /Fd"cmTC_bb5a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_a4d59.dir\\Debug\\\\" /Fd"cmTC_a4d59.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_bb5a4.dir\\Debug\\\\" /Fd"cmTC_bb5a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rxk9fj\\Debug\\cmTC_a4d59.exe" /INCREMENTAL /ILK:"cmTC_a4d59.dir\\Debug\\cmTC_a4d59.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-rxk9fj/Debug/cmTC_a4d59.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-rxk9fj/Debug/cmTC_a4d59.lib" /MACHINE:X64  /machine:x64 cmTC_a4d59.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_a4d59.vcxproj -> E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rxk9fj\\Debug\\cmTC_a4d59.exe
+          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\Debug\\cmTC_bb5a4.exe" /INCREMENTAL /ILK:"cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu/Debug/cmTC_bb5a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu/Debug/cmTC_bb5a4.lib" /MACHINE:X64  /machine:x64 cmTC_bb5a4.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_bb5a4.vcxproj -> E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\Debug\\cmTC_bb5a4.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_a4d59.dir\\Debug\\cmTC_a4d59.tlog\\unsuccessfulbuild".
-          Touching "cmTC_a4d59.dir\\Debug\\cmTC_a4d59.tlog\\cmTC_a4d59.lastbuildstate".
-        Done Building Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-rxk9fj\\cmTC_a4d59.vcxproj" (default targets).
+          Deleting file "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\unsuccessfulbuild".
+          Touching "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\cmTC_bb5a4.lastbuildstate".
+        Done Building Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\cmTC_bb5a4.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.72
+        Time Elapsed 00:00:00.71
         
       exitCode: 0
   -

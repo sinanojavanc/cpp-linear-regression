@@ -34,25 +34,21 @@
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
-    <UseDebugLibraries>true</UseDebugLibraries>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
-    <UseDebugLibraries>false</UseDebugLibraries>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
-    <UseDebugLibraries>false</UseDebugLibraries>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v143</PlatformToolset>
-    <UseDebugLibraries>false</UseDebugLibraries>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -110,7 +106,6 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <CustomBuild Include="E:\CodeGitHub\LinearRegression\cpp-linear-regression\build\CMakeFiles\58327572600d0e93ac6ee89f266ca5c9\copy_data.rule">
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/CodeGitHub/LinearRegression/cpp-linear-regression/data E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/data
@@ -125,7 +120,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\CodeGitHub\LinearRegression\cpp-linear-regression\build\CMakeFiles\copy_data</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/CodeGitHub/LinearRegression/cpp-linear-regression/data E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/data
@@ -140,7 +134,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\CodeGitHub\LinearRegression\cpp-linear-regression\build\CMakeFiles\copy_data</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/CodeGitHub/LinearRegression/cpp-linear-regression/data E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/data
@@ -155,7 +148,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\CodeGitHub\LinearRegression\cpp-linear-regression\build\CMakeFiles\copy_data</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
       <VerifyInputsAndOutputsExist Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</VerifyInputsAndOutputsExist>
-      <BuildInParallel Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</BuildInParallel>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
 "C:\Program Files\CMake\bin\cmake.exe" -E copy_directory E:/CodeGitHub/LinearRegression/cpp-linear-regression/data E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/data

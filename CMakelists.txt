@@ -1,33 +1,30 @@
-cmake_minimum_required(VERSION 4.0)
+cmake_minimum_required(VERSION 3.20)
 
-# Project Name
 project(LinearRegression VERSION 1.0 LANGUAGES CXX)
 
 # C++ Standard
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Source  files
+# Source files
 set(SOURCES
-    #src/LinearRegression.cpp
     src/main.cpp
 )
 
-# Header files (optional but useful)
-set(HEADERS
-    #include/LinearRegression.h
-)
-
 # Create executable
-add_executable(LinearRegression ${SOURCES} ${HEADERS})
+add_executable(LinearRegression ${SOURCES})
 
-# Include directories
-target_include_directories(LinearRegression PRIVATE ${PROJECT_SOURCE_DIR}/include)
+# Include directory (only if exists)
+# if(EXISTS "${PROJECT_SOURCE_DIR}/include")
+#     target_include_directories(LinearRegression PRIVATE ${PROJECT_SOURCE_DIR}/include)
+# endif()
 
-# Data directory (optional copy step)
-add_custom_target(copy_data ALL
-    COMMAND ${CMAKE_COMMAND} -E copy_directory
-            ${PROJECT_SOURCE_DIR}/data
-            ${PROJECT_BINARY_DIR}/data
-)
-add_dependencies(LinearRegression copy_data)
+# Copy data directory (optional)
+# if(EXISTS "${PROJECT_SOURCE_DIR}/data")
+#     add_custom_target(copy_data ALL
+#         COMMAND ${CMAKE_COMMAND} -E copy_directory
+#                 ${PROJECT_SOURCE_DIR}/data
+#                 ${PROJECT_BINARY_DIR}/data
+#     )
+#     add_dependencies(LinearRegression copy_data)
+# endif()
