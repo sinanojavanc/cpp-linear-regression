@@ -5,7 +5,7 @@ events:
     kind: "message-v1"
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineSystem.cmake:212 (message)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       The system is: Windows - 10.0.26100 - AMD64
   -
@@ -16,7 +16,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "file"
     variable: "src_in"
     description: "Path to a file."
@@ -76,7 +76,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
       Compiler:  
@@ -86,7 +86,7 @@ events:
       The output was:
       0
       MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-      Build started 11/24/2025 10:28:12 AM.
+      Build started 11/24/2025 12:06:00 PM.
       
       Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\4.1.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -115,7 +115,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.62
+      Time Elapsed 00:00:00.83
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -132,7 +132,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:103 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -225,7 +225,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:65 (__resolve_tool_path)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:104 (__resolve_linker_path)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "_CMAKE_TOOL_WITH_PATH"
     description: "Path to a program."
@@ -408,7 +408,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_LINKER"
     description: "Path to a program."
@@ -499,7 +499,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_MT"
     description: "Path to a program."
@@ -682,7 +682,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeFindBinUtils.cmake:238 (find_program)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_AR"
     description: "Path to a program."
@@ -776,7 +776,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC.cmake:547 (__windows_compiler_msvc_enable_rc)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/Platform/Windows-MSVC-CXX.cmake:6 (__windows_compiler_msvc)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeCXXInformation.cmake:48 (include)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     mode: "program"
     variable: "CMAKE_RC_COMPILER"
     description: "RC compiler"
@@ -1009,55 +1009,55 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu"
-      binary: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu"
+      source: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-zeacuo"
+      binary: "E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-zeacuo"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /EHsc"
-      CMAKE_CXX_FLAGS_DEBUG: "/Ob0 /Od"
+      CMAKE_CXX_FLAGS_DEBUG: "/Zi /Ob0 /Od /RTC1"
       CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
       CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu'
+        Change Dir: 'E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-zeacuo'
         
-        Run Build Command(s): D:/Visual_Studio_17.14/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_bb5a4.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): D:/Visual_Studio_17.14/MSBuild/Current/Bin/amd64/MSBuild.exe cmTC_1ac95.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.14.8+a7a4d5af0 for .NET Framework
-        Build started 11/24/2025 10:28:13 AM.
+        Build started 11/24/2025 12:06:01 PM.
         
-        Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\cmTC_bb5a4.vcxproj" on node 1 (default targets).
+        Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zeacuo\\cmTC_1ac95.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_bb5a4.dir\\Debug\\".
+          Creating directory "cmTC_1ac95.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\Debug\\".
-          Creating directory "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\".
+          Creating directory "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zeacuo\\Debug\\".
+          Creating directory "cmTC_1ac95.dir\\Debug\\cmTC_1ac95.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\unsuccessfulbuild".
+          Creating "cmTC_1ac95.dir\\Debug\\cmTC_1ac95.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_1ac95.dir\\Debug\\cmTC_1ac95.tlog\\unsuccessfulbuild".
         ClCompile:
-          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_bb5a4.dir\\Debug\\\\" /Fd"cmTC_bb5a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\CL.exe /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1ac95.dir\\Debug\\\\" /Fd"cmTC_1ac95.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.44.35207.1 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_bb5a4.dir\\Debug\\\\" /Fd"cmTC_bb5a4.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W1 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Fo"cmTC_1ac95.dir\\Debug\\\\" /Fd"cmTC_1ac95.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.1\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\Debug\\cmTC_bb5a4.exe" /INCREMENTAL /ILK:"cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu/Debug/cmTC_bb5a4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-ax4yeu/Debug/cmTC_bb5a4.lib" /MACHINE:X64  /machine:x64 cmTC_bb5a4.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_bb5a4.vcxproj -> E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\Debug\\cmTC_bb5a4.exe
+          D:\\Visual_Studio_17.14\\VC\\Tools\\MSVC\\14.44.35207\\bin\\HostX64\\x64\\link.exe /OUT:"E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zeacuo\\Debug\\cmTC_1ac95.exe" /INCREMENTAL /ILK:"cmTC_1ac95.dir\\Debug\\cmTC_1ac95.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-zeacuo/Debug/cmTC_1ac95.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"E:/CodeGitHub/LinearRegression/cpp-linear-regression/build/CMakeFiles/CMakeScratch/TryCompile-zeacuo/Debug/cmTC_1ac95.lib" /MACHINE:X64  /machine:x64 cmTC_1ac95.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_1ac95.vcxproj -> E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zeacuo\\Debug\\cmTC_1ac95.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\unsuccessfulbuild".
-          Touching "cmTC_bb5a4.dir\\Debug\\cmTC_bb5a4.tlog\\cmTC_bb5a4.lastbuildstate".
-        Done Building Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ax4yeu\\cmTC_bb5a4.vcxproj" (default targets).
+          Deleting file "cmTC_1ac95.dir\\Debug\\cmTC_1ac95.tlog\\unsuccessfulbuild".
+          Touching "cmTC_1ac95.dir\\Debug\\cmTC_1ac95.tlog\\cmTC_1ac95.lastbuildstate".
+        Done Building Project "E:\\CodeGitHub\\LinearRegression\\cpp-linear-regression\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zeacuo\\cmTC_1ac95.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.71
+        Time Elapsed 00:00:00.73
         
       exitCode: 0
   -
@@ -1065,7 +1065,7 @@ events:
     backtrace:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
@@ -1083,7 +1083,7 @@ events:
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/Internal/CMakeDetermineLinkerId.cmake:36 (message)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
       - "C:/Program Files/CMake/share/cmake-4.1/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
-      - "CMakeLists.txt:4 (project)"
+      - "CMakeLists.txt:3 (project)"
     message: |
       Running the CXX compiler's linker: "D:/Visual_Studio_17.14/VC/Tools/MSVC/14.44.35207/bin/HostX64/x64/link.exe" "-v"
       Microsoft (R) Incremental Linker Version 14.44.35207.1
