@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include "perceptron.h"
+#include "math_function.h"
 using namespace std;
 
 
@@ -28,8 +29,7 @@ void Perceptron::train(const vector<vector<float>>& inputs,
 {
     for (int k = 0; k < epoch; k++) {
         double mse = 0.0;
-        double lr  = learningrate * epoch;
-        // need to be curve lr 
+        double lr  = learningrate * epoch; // curve lr 
 
         for (int i = 0; i < inputs.size(); i++) {
             int prediction = predict(inputs[i]);
@@ -43,7 +43,8 @@ void Perceptron::train(const vector<vector<float>>& inputs,
             bias += learningrate * error;
         }
 
-        lr -= learningrate;
+        lr -= learningrate; // curve lr 
+
         // calculate the average and print for each epoch
         mse /= inputs.size();
         cout << "Epoch " << k + 1 << " MSE: " << mse << endl;
