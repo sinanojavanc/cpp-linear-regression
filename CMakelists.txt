@@ -9,15 +9,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 # Source files
 set(SOURCES
     src/main.cpp
+    src/perceptron.cpp
 )
 
 # Create executable
 add_executable(LinearRegression ${SOURCES})
 
 # Include directory (only if exists)
-# if(EXISTS "${PROJECT_SOURCE_DIR}/include")
-#     target_include_directories(LinearRegression PRIVATE ${PROJECT_SOURCE_DIR}/include)
-# endif()
+if(EXISTS "${PROJECT_SOURCE_DIR}/include")
+    target_include_directories(LinearRegression PRIVATE ${PROJECT_SOURCE_DIR}/include)
+endif()
 
 # Copy data directory (optional)
 # if(EXISTS "${PROJECT_SOURCE_DIR}/data")
