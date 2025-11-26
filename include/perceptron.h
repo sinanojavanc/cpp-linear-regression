@@ -2,6 +2,8 @@
 #include <vector>
 using namespace std;
 
+double sigmoid(double x);
+
 class Perceptron {
 private:
     vector<float> weight;

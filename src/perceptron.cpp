@@ -1,8 +1,12 @@
 #include <iostream>
 #include <vector>
 #include "perceptron.h"
-#include "math_function.h"
+#include <cmath>
 using namespace std;
+
+double sigmoid(double x) {
+    return 1.0 / (1.0 + std::exp(-x));
+}
 
 
 Perceptron::Perceptron(int inputsize, float lr) {
